@@ -2,60 +2,52 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Positioning Elements</title>
+<title>Floating Elements</title>
 <style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  margin-bottom: 15px;
-}
 
-div#container {
+div {
   background-color: #00FFFF;
-  /* position: relative; */
-  position: absolute;
-  top: 60px;
-  /* top: 0px; */
 }
 p {
   width: 50px;
   height: 50px;
   border: 1px solid black;
-  margin-bottom: 15px;
+  /* float: left;
+  margin-right: 10px; */
 }
+
 #p1 {
   background-color: #A52A2A;
-  position: relative;
-  top: 65px;
-  left: 65px;
+  /* float: right; */
 }
 #p2 {
   background-color: #DEB887;
 }
 #p3 {
   background-color: #5F9EA0;
-  position: absolute;
-  top: 0;
-  left: 0;
+  /* clear: left; */
 }
 #p4 {
   background-color: #FF7F50;
 }
 
+/* section {
+  clear: left;
+} */
+
 </style>
 </head>
 <body>
-<h1>Positioning Elements</h1>
+<h1>Floating Elements</h1>
 
-<div id="container">
+<div>
   <p id="p1"></p>
   <p id="p2"></p>
   <p id="p3"></p>
   <p id="p4"></p>
+  <section>This is regular content continuing after the the paragraph boxes.</section>
 </div>
+
 
 </body>
 </html>
