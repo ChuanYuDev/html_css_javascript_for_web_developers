@@ -29,11 +29,11 @@ section {
     position: relative;
     padding: 30px 10px 5px 10px;
     height: 130px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* Section title */
-section > div {
+section > h2 {
     position: absolute;
     top: 0;
     right: 0;
