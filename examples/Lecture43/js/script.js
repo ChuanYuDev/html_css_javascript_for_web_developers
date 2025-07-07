@@ -38,8 +38,7 @@ if (x === y) {
   console.log("Strict: x='4' is equal to y=4");
 }
 else {
-  console
-  .log("Strict: x='4' is NOT equal to y=4");
+  console.log("Strict: x='4' is NOT equal to y=4");
 }
 
 
@@ -48,8 +47,7 @@ else {
 
 
 // ***** If statement (all false)
-if ( false || null || 
-     undefined || "" || 0 || NaN) {
+if ( false || null || undefined || "" || 0 || NaN) {
   console.log("This line won't ever execute");
 }
 else {

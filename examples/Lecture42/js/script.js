@@ -14,3 +14,9 @@ else {
   console.log("x has been defined");
 }
 
+// Is it immutable?
+var y = 6;
+console.log(y);
+
+y = 7;
+console.log(y);
