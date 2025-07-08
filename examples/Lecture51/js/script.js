@@ -1,17 +1,16 @@
 // Closures
 function makeMultiplier (multiplier) {
-  // var multiplier = 2;
-  function b() {
-    console.log("Multiplier is: " + multiplier);
-  }
-  b();
 
+    function b() {
+        console.log("Multiplier is: " + multiplier);
+    }
 
-  return (
-      function (x) {
-        return multiplier * x;
-      }
+    b();
 
+    return (
+        function (x) {
+            return multiplier * x;
+        }
     );
 }
 
