@@ -2,6 +2,7 @@
 function test () {
     console.log(this);
     this.myName = "Neal";
+    var myName = "Test";
 }
 
 test();
