@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="js/script.js"></script>
+        <title>Test confirm</title>
+    </head>
+
+    <body>
+        <h1>Test confirm</h1>
+
+        <!-- Add return otherwise the page will be directly regardless of how the user answers the dialog -->
+
+        <!-- <a href="page.html" onclick="confirmLink('page')">Go to page</a> -->
+
+        <!-- <a href="page.html" onclick="return confirmLink('page')">Go to page</a> -->
+
+        <!-- <a href="page.html">Go to page</a> -->
+        <a href="page.html" data-message="Aother page12121">Go to page</a>
+
+        <!-- <script>
+            function confirmLink(item)
+            {
+                return confirm("Are you sure to " + item + "?");
+            }
+        </script> -->
+    </body>
+</html>
+
